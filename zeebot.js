@@ -495,7 +495,7 @@ switch (command) {
           break           
 
 //>>>WibuMenu
-    case /*'nezuko'
+   /* case 'nezuko':
     case '
           pin = await hx.pinterest(commnad)
           ac = pin[Math.floor(Math.random() * pin.length)]
