@@ -495,7 +495,7 @@ switch (command) {
           break           
 
 //>>>WibuMenu
-    case 'nezuko'
+    case /*'nezuko'
     case '
           pin = await hx.pinterest(commnad)
           ac = pin[Math.floor(Math.random() * pin.length)]
@@ -503,7 +503,7 @@ switch (command) {
           but = [
            { buttonId: `${prefix + command} ${v}`, buttonText: { displayText: 'NEXT' }, type: 1 }]
           sendButImage(from, `pinterest ${v}`, `Klik Next Ngab`, di, but)
-          break
+          break*/
                     
 //»»»𝘚𝘦𝘢𝘳𝘤𝘩𝘪𝘯𝘨 𝘔𝘦𝘯𝘶
     case 'gimage':
