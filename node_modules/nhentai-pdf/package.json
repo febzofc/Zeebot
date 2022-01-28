@@ -1,0 +1,50 @@
+{
+  "name": "nhentai-pdf",
+  "version": "1.0.0",
+  "description": " NPM package to be used for getting the holy numbers in pdf 🌚 Welcome to the Darkness ",
+  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "tsc -p .",
+    "lint": "eslint \"src/**/*.ts\"",
+    "prepare": "npm run build",
+    "prettier-format": "prettier --config .prettierrc \"src/**/*.ts\" --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrajjwalDatir/nhentai-pdf.git"
+  },
+  "keywords": [
+    "nhentai",
+    "nhentai",
+    "pdf",
+    "doujin",
+    "downloader",
+    "nhentai",
+    "downloader"
+  ],
+  "author": "PrajjwalDatir",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/PrajjwalDatir/nhentai-pdf/issues"
+  },
+  "homepage": "https://github.com/PrajjwalDatir/nhentai-pdf#readme",
+  "devDependencies": {
+    "@types/node": "^16.3.3",
+    "@types/pdfkit": "^0.11.2",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "eslint": "^7.31.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "pdfkit": "^0.12.1"
+  }
+}
